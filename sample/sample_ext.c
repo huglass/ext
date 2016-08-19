@@ -34,7 +34,7 @@ unsigned char php_sample_byref_arginfo[] = {1, BYREF_FORCE};
 //////////////////////////////////////////////////////////
 /*
 function entry point vector
-PHP_FE 建立用户空间函数名和实际内部函数定义之间的关�?
+PHP_FE associates function name in user space with internal c function name
 */
 static zend_function_entry php_sample_functions[] = {
 	PHP_FE(sample_hello_world,						NULL)
